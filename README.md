@@ -3,7 +3,9 @@ shell-utils
 
 Various shell (bash) utilities to aid Linux life
 
-'''skype-notify.sh'''
+skype-notify.sh
+---------------
+
 Use to trigger libnotify with some filtering.
 
 Provide three arguments:
@@ -17,3 +19,8 @@ skype-notify.sh "You got message!" "%sname" "%smessage"
 
 If the message matches your filters (check internals of
 '''skype-notify.sh''') you will see notification poping-up.
+
+add-timely-headers.sh
+---------------------
+
+Add Time.ly headers to PHP files within current working directory.
